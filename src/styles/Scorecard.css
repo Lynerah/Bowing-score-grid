@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+
+h2{
+	font-size: 3rem;
+}
+.grid{
+	display: flex;
+	margin: 5% 15%;
+	font-size:20px;
+}
+.frame{
+	border: 1px solid #ccc;
+	width: 30%;
+	/* display: flex; */
+	position: relative;
+}
+
+.score{
+	border: solid blue;
+	border-width:  0 0 1px 0;
+	width: 100%;
+	display: flex;
+}
+
+.run{
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+
+
+.turn2{
+	border: solid purple;
+	border-width: 0 1px 0 1px 
+}
+.item{
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	
+}
+
+.total-score{
+	font-weight: 600;
+	
+}
